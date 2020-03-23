@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 #include <hdf5.h>
-#include "sz.h"
+#include "sz/sz.h"
 
 #define H5Z_FILTER_SZ 32017
 #define MAX_CHUNK_SIZE 4294967295 //2^32-1

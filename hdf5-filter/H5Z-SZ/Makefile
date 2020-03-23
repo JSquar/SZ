@@ -9,8 +9,8 @@
 ##   PLEASE SET THESE VARIABLES BEFORE COMPILING
 ##=======================================================================
 
-SZPATH		= /home/sdi/Install/sz-2.1-install
-HDF5PATH	= /home/sdi/Install/hdf5-1.10.1-install
+SZ_PATH = /home/dreistein/opt/spack/opt/spack/linux-fedora31-zen2/gcc-9.2.1/sz-2.1.8.3-nqdmiulwq47adbyuiukkkelbelshynyp
+HDF5_PATH = /home/dreistein/opt/spack/opt/spack/linux-fedora31-zen2/gcc-9.2.1/hdf5-1.10.6-tmlylf4wz64tgckx6tffr5z6vuw7s3wh
 
 ##=======================================================================
 ##   DIRECTORY TREE
@@ -53,7 +53,7 @@ $(OBJ)/%.o:	$(SRC)/%.c
 		
 $(LIB)/$(SHARED):	$(OBJS)
 		@mkdir -p $(LIB)
-		$(CC) -O3 -shared -o $(LIB)/$(SHARED) $(OBJS) $(SZFLAGS) -lc -lSZ -lzlib -lzstd
+		$(CC) -O3 -shared -o $(LIB)/$(SHARED) $(OBJS) $(SZFLAGS) -lc -lSZ -lz -lzstd
 
 $(LIB)/$(STATIC):	$(OBJS)
 		@mkdir -p $(LIB)
