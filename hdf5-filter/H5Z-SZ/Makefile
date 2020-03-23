@@ -9,8 +9,8 @@
 ##   PLEASE SET THESE VARIABLES BEFORE COMPILING
 ##=======================================================================
 
-SZ_PATH = /home/dreistein/opt/spack/opt/spack/linux-fedora31-zen2/gcc-9.2.1/sz-2.1.8.3-nqdmiulwq47adbyuiukkkelbelshynyp
-HDF5_PATH = /home/dreistein/opt/spack/opt/spack/linux-fedora31-zen2/gcc-9.2.1/hdf5-1.10.6-tmlylf4wz64tgckx6tffr5z6vuw7s3wh
+SZPATH = /home/dreistein/opt/spack/opt/spack/linux-fedora31-zen2/gcc-9.2.1/sz-2.1.8.3-nqdmiulwq47adbyuiukkkelbelshynyp
+HDF5PATH = /home/dreistein/opt/spack/opt/spack/linux-fedora31-zen2/gcc-9.2.1/hdf5-1.10.6-tmlylf4wz64tgckx6tffr5z6vuw7s3wh
 
 ##=======================================================================
 ##   DIRECTORY TREE
